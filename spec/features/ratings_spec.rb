@@ -2,8 +2,8 @@ require 'rails_helper'
 
 describe "Rating" do
   let!(:brewery) { FactoryGirl.create :brewery, name:"Koff" }
-  let!(:beer1) { FactoryGirl.create :beer, name:"iso 3", brewery:brewery }
-  let!(:beer2) { FactoryGirl.create :beer, name:"Karhu", brewery:brewery }
+  let!(:beer1) { FactoryGirl.create :beer, name:"iso 3", style:"lager" ,brewery:brewery }
+  let!(:beer2) { FactoryGirl.create :beer, name:"Karhu", style:"lager", brewery:brewery }
   let!(:user) { FactoryGirl.create :user }
   let!(:rating) {FactoryGirl.create :rating, user:user, beer:beer1}
 
@@ -51,6 +51,16 @@ describe "Rating" do
     expect(Rating.count).to eq(1)
     click_link "delete"
     expect(Rating.count).to eq(0)
+  end
+
+  it "User sees his favorite brewery" do
+    visit user_path(user)
+    expect(page).to have_content "User's favorite brewery is: Koff"
+  end
+
+  it "User sees his favorite style" do
+    visit user_path(user)
+    expect(page).to have_content "User's favorite style is: lager"
   end
 
 end

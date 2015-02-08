@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="8191797a-28de-4fcc-8798-fbbfcd499bdf" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/features/ratings_spec.rb" afterPath="$PROJECT_DIR$/spec/features/ratings_spec.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/users/show.html.erb" afterPath="$PROJECT_DIR$/app/views/users/show.html.erb" />
     </list>
     <ignored path="viikko3.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,15 +26,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Gemfile">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="15" selection-start="395" selection-end="395" vertical-scroll-proportion="0.0" vertical-offset="79" max-vertical-offset="1095">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="rails_helper.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spec/rails_helper.rb">
           <provider selected="true" editor-type-id="text-editor">
@@ -90,10 +82,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ratings_spec.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="ratings_spec.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spec/features/ratings_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="48" column="52" selection-start="1431" selection-end="1431" vertical-scroll-proportion="0.64705884" vertical-offset="467" max-vertical-offset="915">
+            <state line="55" column="40" selection-start="1602" selection-end="1602" vertical-scroll-proportion="0.0" vertical-offset="637" max-vertical-offset="1065">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="show.html.erb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/users/show.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="32" column="24" selection-start="685" selection-end="685" vertical-scroll-proportion="0.5762712" vertical-offset="276" max-vertical-offset="675">
               <folding />
             </state>
           </provider>
@@ -145,6 +146,7 @@
         <option value="$PROJECT_DIR$/app/views/ratings/index.html.erb" />
         <option value="$PROJECT_DIR$/spec/factories.rb" />
         <option value="$PROJECT_DIR$/spec/features/ratings_spec.rb" />
+        <option value="$PROJECT_DIR$/app/views/users/show.html.erb" />
       </list>
     </option>
   </component>
@@ -268,6 +270,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="features" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="viikko3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="viikko3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="users" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -722,7 +746,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/spec/features/ratings_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="52" selection-start="1431" selection-end="1431" vertical-scroll-proportion="0.64705884" vertical-offset="467" max-vertical-offset="915">
+        <state line="55" column="40" selection-start="1602" selection-end="1602" vertical-scroll-proportion="0.0" vertical-offset="637" max-vertical-offset="1065">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/users/show.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="24" selection-start="685" selection-end="685" vertical-scroll-proportion="0.5762712" vertical-offset="276" max-vertical-offset="675">
           <folding />
         </state>
       </provider>

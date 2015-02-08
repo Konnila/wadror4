@@ -30,6 +30,9 @@
   <% end %>
 </ul>
 
+<p>User's favorite style is: <%= @user.favorite_style %></p>
+<p>User's favorite brewery is: <%= @user.favorite_brewery %></p>
+
 <% if @user == current_user %>
   <%= link_to 'Change password', edit_user_path(@user) %>
   <%= link_to 'Delete account', @user, method: :delete, data: { confirm: 'Are you sure?' } %></
