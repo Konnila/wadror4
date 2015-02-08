@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8191797a-28de-4fcc-8798-fbbfcd499bdf" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/factories.rb" afterPath="$PROJECT_DIR$/spec/factories.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/ratings/index.html.erb" afterPath="$PROJECT_DIR$/app/views/ratings/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/rails_helper.rb" afterPath="$PROJECT_DIR$/spec/rails_helper.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/ratings_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/ratings_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/features/ratings_spec.rb" afterPath="$PROJECT_DIR$/spec/features/ratings_spec.rb" />
     </list>
     <ignored path="viikko3.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -98,7 +93,7 @@
       <file leaf-file-name="ratings_spec.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/spec/features/ratings_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="39" selection-start="761" selection-end="761" vertical-scroll-proportion="0.11764706" vertical-offset="299" max-vertical-offset="780">
+            <state line="48" column="52" selection-start="1431" selection-end="1431" vertical-scroll-proportion="0.64705884" vertical-offset="467" max-vertical-offset="915">
               <folding />
             </state>
           </provider>
@@ -727,7 +722,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/spec/features/ratings_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="39" selection-start="761" selection-end="761" vertical-scroll-proportion="0.11764706" vertical-offset="299" max-vertical-offset="780">
+        <state line="48" column="52" selection-start="1431" selection-end="1431" vertical-scroll-proportion="0.64705884" vertical-offset="467" max-vertical-offset="915">
           <folding />
         </state>
       </provider>

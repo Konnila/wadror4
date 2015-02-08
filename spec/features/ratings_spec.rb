@@ -44,4 +44,13 @@ describe "Rating" do
     expect(page).to have_content "Has made 1 rating"
   end
 
+  it "User can delete his own rating" do
+    visit user_path(user)
+    expect(page).to have_content "Has made 1 rating"
+
+    expect(Rating.count).to eq(1)
+    click_link "delete"
+    expect(Rating.count).to eq(0)
+  end
+
 end
